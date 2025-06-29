@@ -98,7 +98,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
 
   const login = () => {
     const clientId = 'Ov23lilA5w7ZZVZZ1Xk0';
-    const redirectUri = window.location.origin;
+    const redirectUri = 'https://dev-gamma-neon.vercel.app';
     const scope = 'repo user read:org read:user user:email';
     const state = Math.random().toString(36).substring(2, 15);
     
