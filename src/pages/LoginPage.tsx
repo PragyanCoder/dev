@@ -51,7 +51,7 @@ const LoginPage: React.FC = () => {
             <div className="flex items-center space-x-3 mb-8">
               <Github className="w-12 h-12 text-github-green" />
               <div>
-                <h1 className="text-3xl font-bold text-github-text">GitHub Devsuit</h1>
+                <h1 className="text-3xl font-bold text-github-text">Pragyan Devsuit</h1>
                 <p className="text-github-muted">Professional Developer Dashboard</p>
               </div>
             </div>
